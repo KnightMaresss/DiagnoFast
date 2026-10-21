@@ -1,0 +1,20 @@
+# Node
+node_modules/
+npm-debug.log
+.env
+
+# Python
+venv/
+__pycache__/
+*.pkl
+api_usage.log
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+.vscode/

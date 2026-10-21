@@ -1,0 +1,9 @@
+.button-diagnosis{
+    color: "#fff";
+    border: "none";
+    padding: "10px 15px";
+    cursor: "pointer";
+    position:"absolute";
+    top:20;
+    left:20;
+}
