@@ -64,7 +64,7 @@ git clone https://github.com/KnightMaresss/DiagnoFast.git
 cd DiagnoFast
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 You need to install packages for both Node and Python.
 
 ```bash
@@ -77,7 +77,7 @@ cd ml_model
 pip install -r requirements.txt
 ```
 
-3. Train the AI Model (Important!)
+### 3. Train the AI Model (Important!)
 Because the .pkl model file is generated locally, you must train the model before running the app:
 
 ```bash
@@ -86,7 +86,7 @@ python train_nlp.py
 ```
 (You should see an accuracy report and a new nlp_model.pkl file created).
 
-4. Environment Variables
+### 4. Environment Variables
 Create a .env file in the root directory and add your secret key:
 
 ```bash
