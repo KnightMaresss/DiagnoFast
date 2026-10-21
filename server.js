@@ -287,9 +287,9 @@ app.post('/predict', authMiddleware, async (req, res) => {
 
         // 4. Return result
         res.json({ ...result, diagnosisId: diagnosisDoc._id });
-    } catch (err) {
-        console.error('Predict error:', err.message);
-        res.status(500).json({ error: 'Prediction service failed', detail: err.message });
+       } catch (err) {
+        console.error('Predict error:', err.message); // Keeps the error in YOUR terminal for debugging
+        res.status(500).json({ error: 'Prediction service failed. Please try again later.' }); // Sends a safe message to the user
     }
 });
 app.get('/diagnoses/high-confidence', authMiddleware, async (req, res) => {
@@ -306,7 +306,6 @@ app.get('/diagnoses/high-confidence', authMiddleware, async (req, res) => {
 });
 
 // ── SERVER START ─────────────────────────────────────────────
-// ✅ MUST BE AT THE BOTTOM
 app.listen(5000, () => {
     console.log('Server running on http://localhost:5000');
 });
