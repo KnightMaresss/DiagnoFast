@@ -100,9 +100,9 @@ We use `concurrently` to start the React frontend, Node backend, and Python Flas
 npm start
 ```
 Once running, you can access the services at:
-•	Frontend: http://localhost:5173
-•	Backend: http://localhost:5000
-•	AI API: http://localhost:8001
+Frontend: http://localhost:5173
+Backend: http://localhost:5000
+AI API: http://localhost:8001
 
 Disclaimer: This application is for educational and portfolio purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
 
