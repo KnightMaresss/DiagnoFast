@@ -103,3 +103,10 @@ npm start
 •	Backend: http://localhost:5000
 •	AI API: http://localhost:8001
 Disclaimer: This application is for educational and portfolio purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.
+
+## 👤 Author
+
+**Waleed (KnightMares)**
+
+- GitHub: [@KnightMaresss](https://github.com/KnightMaresss)
+- Email: [waleedalmaqtari10@gmail.com](mailto:waleedalmaqtari10@gmail.com)
