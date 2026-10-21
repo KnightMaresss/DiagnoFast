@@ -94,6 +94,7 @@ JWT_SECRET=your_super_secret_key_here
 ```
 
 ### 5. Start the Application
+
 We use `concurrently` to start the React frontend, Node backend, and Python Flask API all at once. From the root directory, run:
 
 ```bash
