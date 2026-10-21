@@ -93,13 +93,13 @@ Create a .env file in the root directory and add your secret key:
 JWT_SECRET=your_super_secret_key_here
 ```
 
-5. Start the Application
-We use concurrently to start the React frontend, Node backend, and Python Flask API all at once. From the root directory, run:
+### 5. Start the Application
+We use `concurrently` to start the React frontend, Node backend, and Python Flask API all at once. From the root directory, run:
 
 ```bash
 npm start
 ```
-
+Once running, you can access the services at:
 •	Frontend: http://localhost:5173
 •	Backend: http://localhost:5000
 •	AI API: http://localhost:8001
