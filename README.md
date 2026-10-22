@@ -31,6 +31,30 @@ DiagnoFast is a full-stack, AI-powered medical diagnosis application. It allows 
   <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
 </p>
 
+## 📸 Application Preview
+
+| Landing Page | Diagnosis Interface |
+| :---: | :---: |
+| ![Landing Page](./screenshots/HomePage.png) | ![Diagnosis Interface](./screenshots/DiagnosePage-EmptyState.png) |
+
+| Diagnosis Result | Profile & History |
+| :---: | :---: |
+| ![Result](./screenshots/TestCase1.png) | ![History](./screenshots/ProfilePage-History.png) |
+
+<details>
+<summary><b>Click to view more test cases</b></summary>
+<br/>
+
+| Test Case 2 | Test Case 3 |
+| :---: | :---: |
+| ![Test 2](./screenshots/TestCase2.png) | ![Test 3](./screenshots/TestCase3.png) |
+
+| Test Case 4 | Login Screen |
+| :---: | :---: |
+| ![Test 4](./screenshots/TestCase4.png) | ![Login](./screenshots/LoginPage.png) |
+
+</details>
+
 ## 🧠 How the AI Works
 
 Unlike traditional symptom checkers that use clunky checkboxes, DiagnoFast uses **Natural Language Processing (NLP)**. 
